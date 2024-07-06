@@ -1,0 +1,28 @@
+Package: cPolyA
+Type: Package
+Title: Identification of poly(A) cleavage heterogeneity cutoff and clustering of alternative polyadenylation using Laplace mixture model
+Version: 0.1.0
+Author: c(person("Bandhan","Sarker",email="bandhansarker@sjtu.edu.cn",role=c("aut","cre","cph")),person("Chuan","Xu",email="chuanx@sjtu.edu.cn",role=c("aut","cph")))
+Maintainer: Bandhan sarker <bandhansarker@sjtu.edu.cn>
+Description: cPolyA package is applicable for finding cross point between cleavage sites within or different PolyA site. cPolyA package is also used for clustering polyA sites with separating APA from heterogeneous cleavage using PolyA clust and also compile previous method peaklu, QuantifyR and simple cluster.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Additional_repositories: https://cloud.r-project.org
+Imports: 
+    BiocGenerics,
+    data.table,
+    dplyr,
+    GenomeInfoDb,
+    GenomicRanges,
+    ggplot2,
+    IRanges,
+    outliers,
+    pbmcapply,
+    Rgb,
+    S4Vectors,
+    stats,
+    stringr,
+    utils,
+    VGAM
